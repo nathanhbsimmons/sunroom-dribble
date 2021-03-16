@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sunroom-dribble/static/css/main.60dd4afd.chunk.css",
+    "main.js": "/sunroom-dribble/static/js/main.cc9f9b09.chunk.js",
+    "main.js.map": "/sunroom-dribble/static/js/main.cc9f9b09.chunk.js.map",
+    "runtime-main.js": "/sunroom-dribble/static/js/runtime-main.425827b7.js",
+    "runtime-main.js.map": "/sunroom-dribble/static/js/runtime-main.425827b7.js.map",
+    "static/js/2.60448315.chunk.js": "/sunroom-dribble/static/js/2.60448315.chunk.js",
+    "static/js/2.60448315.chunk.js.map": "/sunroom-dribble/static/js/2.60448315.chunk.js.map",
+    "static/js/3.fac24bfb.chunk.js": "/sunroom-dribble/static/js/3.fac24bfb.chunk.js",
+    "static/js/3.fac24bfb.chunk.js.map": "/sunroom-dribble/static/js/3.fac24bfb.chunk.js.map",
+    "index.html": "/sunroom-dribble/index.html",
+    "static/css/main.60dd4afd.chunk.css.map": "/sunroom-dribble/static/css/main.60dd4afd.chunk.css.map",
+    "static/js/2.60448315.chunk.js.LICENSE.txt": "/sunroom-dribble/static/js/2.60448315.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.425827b7.js",
+    "static/js/2.60448315.chunk.js",
+    "static/css/main.60dd4afd.chunk.css",
+    "static/js/main.cc9f9b09.chunk.js"
+  ]
+}
