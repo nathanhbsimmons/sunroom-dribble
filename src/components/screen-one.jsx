@@ -115,6 +115,7 @@ export default function ScreenOne() {
 
                 {/*eventually split this out as a reusable component??*/}
                 <Card id='shadow-duplicate' className={classes.contactCard}>
+                    {/*i think this button may actually be slightly large then header buttons - MEASURE*/}
                     <SquareButton/>
                     <SquareButton/>
                 </Card>
