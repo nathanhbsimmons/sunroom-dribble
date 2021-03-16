@@ -1,13 +1,16 @@
 import React from 'react';
 import {  makeStyles } from '@material-ui/core/styles';
-import styled from 'styled-components'
 import { BottomNavigation, Fab } from '@material-ui/core';
+
+// placeholder icons to be replaced with correct icons later
+//filled
 import {
     HomeIcon,
     AssignmentIcon,
     DateRangeIcon,
     PersonOutlineIcon
 } from '@material-ui/icons';
+//outlined
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import AssignmentOutlinedIcon from '@material-ui/icons/AssignmentOutlined';
 import DateRangeOutlinedIcon from '@material-ui/icons/DateRangeOutlined';
@@ -25,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
         alignItems: 'center'
     },
     button: {
+        //background/action circle too small - FIX
         boxShadow: 'none',
         color: theme.palette.iconColor,
         backgroundColor: 'transparent',
@@ -39,12 +43,6 @@ const useStyles = makeStyles((theme) => ({
             color: theme.palette.secondary.main,
             backgroundColor: '#F2F6FC',
             borderRadius: '50%',
-            // minWidth: '36px',
-            // height: '36px',
-            // // margin: '10px',
-            // lineHeight: '36px',
-            // verticalAlign: 'middle',
-            // textAlign: 'center'
           },
     }
   }));
@@ -53,8 +51,8 @@ export default function Navigation() {
     const classes = useStyles();
     const [value, setValue] = React.useState('home');
 
+    //finish onChange implementation
     const handleChange = (e, newValue) => {
-        console.log(e)
         setValue(newValue);
     };
 

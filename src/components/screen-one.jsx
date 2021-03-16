@@ -20,6 +20,7 @@ import HeaderLocation from './header-location'
 import SquareButton from './button-square'
 
 const useStyles = makeStyles((theme) => ({
+    //revisit and see what repeating values can be bifurcated and placed in the global theme
     root: {
       flexGrow: 1,
     },
@@ -74,9 +75,6 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-
-
-
 export default function ScreenOne() {
     const classes = useStyles();
 
@@ -88,6 +86,7 @@ export default function ScreenOne() {
                     info={<HeaderLocation/>}
                 />
 
+                {/*icon is too far from text*/}
                 <TextField
                 autoFocus='true'
                 className={classes.search}
@@ -108,11 +107,13 @@ export default function ScreenOne() {
                     ),
                 }}/>
 
+                {/*button too wide - FIX*/}
                 <Grid className={classes.grid}>
                     <Typography className={classes.sectionHeader}>Upcoming Schedule</Typography>
                     <Button color="secondary" className={classes.textButton}>See all</Button>
                 </Grid>
 
+                {/*eventually split this out as a reusable component??*/}
                 <Card id='shadow-duplicate' className={classes.contactCard}>
                     <SquareButton/>
                     <SquareButton/>
@@ -120,6 +121,7 @@ export default function ScreenOne() {
 
                 <Grid className={classes.grid}>
                     <Typography className={classes.sectionHeader}>Let's find your doctor</Typography>
+                    {/*button action animation/bground is off due to padding change...FIX*/}}
                     <IconButton color="secondary" style={{fontSize: '20px', paddingRight: '0px'}}  component="span">
                         <BiSliderAlt />
                     </IconButton>
